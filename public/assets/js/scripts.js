@@ -40,7 +40,7 @@ jQuery(function($) {
         }
 
     }
-
+    
     /*--------------------------------
          Window Based Layout
      --------------------------------*/
@@ -3492,31 +3492,31 @@ jQuery(function($) {
         // ------------------------------------------------------- //
         // Coins Slider
         // ------------------------------------------------------ //
-        if ($(".coins-slider")){
-            var swiper = new Swiper('.coins-slider', {
-                slidesPerView: 3,
-                spaceBetween: 10,
-                breakpoints: {
-                    1200: {
-                        slidesPerView: 2
-                    },
-                    767: {
-                        slidesPerView: 2
-                    },
-                    480: {
-                        slidesPerView: 1
-                    }
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    dynamicBullets: true
-                }
-            });
-        }
+        // if ($(".coins-slider")){
+        //     var swiper = new Swiper('.coins-slider', {
+        //         slidesPerView: 3,
+        //         spaceBetween: 10,
+        //         breakpoints: {
+        //             1200: {
+        //                 slidesPerView: 2
+        //             },
+        //             767: {
+        //                 slidesPerView: 2
+        //             },
+        //             480: {
+        //                 slidesPerView: 1
+        //             }
+        //         },
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev'
+        //         },
+        //         pagination: {
+        //             el: '.swiper-pagination',
+        //             dynamicBullets: true
+        //         }
+        //     });
+        // }
     });
  
     $(window).resize(function() {
